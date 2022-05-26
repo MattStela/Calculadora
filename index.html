@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section id="background">
+        <div id="bg_1"></div>
+        <div id="bg_2"></div>
+    </section>
+    <section id="calculadora">
+        <!--============== TELA ================-->
+        <div id="hist"></div>
+        <div id="tela"></div>
+
+        <!--============ TECLADO ===============-->
+        <div id="teclado">
+            <div class="cols">
+                <button onclick="" id="parenteses_esquerdo"></button>
+                <button onclick="sete()" id="sete">7</button>
+                <button onclick="quatro()" id="quatro">4</button>
+                <button onclick="um()" id="um">1</button>
+                <button onclick="zero()" id="zero">0</button>
+            </div>
+            <div class="cols">
+                <button onclick="" id="parenteses_direito"></button>
+                <button onclick="oito()" id="oito">8</button>
+                <button onclick="cinco()" id="cinco">5</button>
+                <button onclick="dois()" id="dois">2</button>
+                <button onclick="ponto()" id="ponto">.</button>
+            </div>
+            <div class="cols">
+                <button onclick="porcentagem()" id="porcentagem">%</button>
+                <button onclick="nove()" id="nove">9</button>
+                <button onclick="seis()" id="seis">6</button>
+                <button onclick="tres()" id="tres">3</button>
+                <button onclick="resultado()">=</button>
+            </div>
+            <div class="cols">
+                <button onclick="limpar()" id="ce">CE</button>
+                <button onclick="divisao()" id="divisao">÷</button>
+                <button onclick="multiplicacao()" id="multiplicacao">*</button>
+                <button onclick="subtracao()" id="subtracao">-</button>
+                <button onclick="soma()" id="soma">+</button>
+            </div>
+        </div>
+    </section>
+    <div id="eu_que_criei">
+        <p>created by Matheus Stela</p>
+        <button id="tema" onclick="tema()">Tema 2</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
